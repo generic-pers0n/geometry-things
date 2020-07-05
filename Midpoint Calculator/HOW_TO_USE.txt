@@ -1,0 +1,28 @@
+**** GENERAL USAGE ****
+Using this calculator is pretty simple. You need to enter a 2 coordinate points. From there,
+the calculator does its little magic.
+
+To run the calculator, no installation is needed. Simply run the binary and there you go! You've
+just run the calculator.
+
+Once a calculation finishes, the program will ask you if you want to do another calculation. Type
+'y' or 'Y' and hit enter if you want to do another calculation. If you don't want to do another
+calculation, type 'n', 'N', or anything else and hit enter to exit the calculator.
+
+
+**** COMPILING THE CALCULATOR ****
+You will need a C++ compiler to compile the program. You will also need make installed
+
+All is simple. You just need to run 'make' on a Mac, Linux, or other UNIX-like system to compile
+the calculator.
+
+On Windows, with MinGW installed, you can run the following command, provided that g++ is installed
+and named to 'g++':
+
+g++ -o main.exe main.cpp
+
+
+**** NOTES ON INPUTTING COORDINATE POINTS ****
+Note that when inputting coordinate points, DO NOT input them in their regular format: (x,y).
+Instead, input them in this format: x y. This is the same thing on what you have to do when
+inputting coordinate points in Lines.
