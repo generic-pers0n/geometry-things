@@ -6,9 +6,14 @@
 
 typedef long double ldbl;
 
+inline ldbl square(const ldbl num)
+{
+  return num * num;
+}
+
 inline ldbl distance(const ldbl* pt1, const ldbl* pt2)
 {
-  return sqrt(pow(2.0, pt1[0] - pt2[0]) + pow(2.0, pt1[1] - pt2[1]) );
+  return sqrt( square(pt1[0] - pt2[0]) + square(pt1[1] - pt2[1]) );
 }
 
 #endif // end dformula.hpp
